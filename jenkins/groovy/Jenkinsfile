@@ -1,4 +1,4 @@
-@Library(['https://github.com/dennyzhang/cheatsheet-jenkins-groovy-A4/blob/master/git-checkout.groovy']) _
+// @Library(['https://github.com/dennyzhang/cheatsheet-jenkins-groovy-A4/blob/master/git-checkout.groovy']) _
 
 pipeline {
   agent {

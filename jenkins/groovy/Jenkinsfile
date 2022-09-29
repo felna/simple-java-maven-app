@@ -2,8 +2,8 @@
 
 pipeline {
   agent {
+    label 'docker-maven'
     docker {
-    label 'Docker-maven'
     image 'maven:3-alpine'
     args '-v /root/.m2:/root/.m2'
     }
